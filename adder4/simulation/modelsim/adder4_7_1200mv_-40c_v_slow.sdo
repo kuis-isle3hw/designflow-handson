@@ -29,7 +29,7 @@
 (DELAYFILE
   (SDFVERSION "2.1")
   (DESIGN "adder4")
-  (DATE "04/23/2020 14:56:18")
+  (DATE "04/23/2020 15:01:41")
   (VENDOR "Altera")
   (PROGRAM "Quartus Prime")
   (VERSION "Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition")
@@ -41,8 +41,8 @@
     (INSTANCE sum\[0\]\~output)
     (DELAY
       (ABSOLUTE
-        (PORT i (636:636:636) (576:576:576))
-        (IOPATH i o (2562:2562:2562) (2504:2504:2504))
+        (PORT i (971:971:971) (822:822:822))
+        (IOPATH i o (2463:2463:2463) (2416:2416:2416))
       )
     )
   )
@@ -51,8 +51,8 @@
     (INSTANCE sum\[1\]\~output)
     (DELAY
       (ABSOLUTE
-        (PORT i (694:694:694) (644:644:644))
-        (IOPATH i o (2562:2562:2562) (2504:2504:2504))
+        (PORT i (1118:1118:1118) (1019:1019:1019))
+        (IOPATH i o (2453:2453:2453) (2406:2406:2406))
       )
     )
   )
@@ -61,8 +61,8 @@
     (INSTANCE sum\[2\]\~output)
     (DELAY
       (ABSOLUTE
-        (PORT i (878:878:878) (773:773:773))
-        (IOPATH i o (2612:2612:2612) (2554:2554:2554))
+        (PORT i (1360:1360:1360) (1224:1224:1224))
+        (IOPATH i o (2433:2433:2433) (2386:2386:2386))
       )
     )
   )
@@ -71,8 +71,8 @@
     (INSTANCE sum\[3\]\~output)
     (DELAY
       (ABSOLUTE
-        (PORT i (650:650:650) (595:595:595))
-        (IOPATH i o (2572:2572:2572) (2514:2514:2514))
+        (PORT i (518:518:518) (443:443:443))
+        (IOPATH i o (2463:2463:2463) (2416:2416:2416))
       )
     )
   )
@@ -81,23 +81,23 @@
     (INSTANCE cout\~output)
     (DELAY
       (ABSOLUTE
-        (PORT i (636:636:636) (577:577:577))
-        (IOPATH i o (2552:2552:2552) (2494:2494:2494))
-      )
-    )
-  )
-  (CELL
-    (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE b\[0\]\~input)
-    (DELAY
-      (ABSOLUTE
-        (IOPATH i o (620:620:620) (697:697:697))
+        (PORT i (1006:1006:1006) (842:842:842))
+        (IOPATH i o (2463:2463:2463) (2416:2416:2416))
       )
     )
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
     (INSTANCE a\[0\]\~input)
+    (DELAY
+      (ABSOLUTE
+        (IOPATH i o (648:648:648) (725:725:725))
+      )
+    )
+  )
+  (CELL
+    (CELLTYPE "cycloneive_io_ibuf")
+    (INSTANCE b\[0\]\~input)
     (DELAY
       (ABSOLUTE
         (IOPATH i o (618:618:618) (695:695:695))
@@ -109,7 +109,7 @@
     (INSTANCE cin\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (610:610:610) (687:687:687))
+        (IOPATH i o (618:618:618) (695:695:695))
       )
     )
   )
@@ -118,8 +118,8 @@
     (INSTANCE Add0\~1)
     (DELAY
       (ABSOLUTE
-        (PORT dataa (2285:2285:2285) (2434:2434:2434))
-        (IOPATH dataa cout (416:416:416) (316:316:316))
+        (PORT datab (3099:3099:3099) (3221:3221:3221))
+        (IOPATH datab cout (425:425:425) (322:322:322))
       )
     )
   )
@@ -128,8 +128,8 @@
     (INSTANCE Add0\~2)
     (DELAY
       (ABSOLUTE
-        (PORT dataa (2527:2527:2527) (2665:2665:2665))
-        (PORT datab (2533:2533:2533) (2677:2677:2677))
+        (PORT dataa (2468:2468:2468) (2625:2625:2625))
+        (PORT datab (2783:2783:2783) (2896:2896:2896))
         (IOPATH dataa combout (365:365:365) (381:381:381))
         (IOPATH dataa cout (416:416:416) (316:316:316))
         (IOPATH datab combout (375:375:375) (387:387:387))
@@ -142,19 +142,19 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE b\[1\]\~input)
+    (INSTANCE a\[1\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (630:630:630) (707:707:707))
+        (IOPATH i o (638:638:638) (715:715:715))
       )
     )
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE a\[1\]\~input)
+    (INSTANCE b\[1\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (620:620:620) (697:697:697))
+        (IOPATH i o (608:608:608) (685:685:685))
       )
     )
   )
@@ -163,8 +163,8 @@
     (INSTANCE Add0\~4)
     (DELAY
       (ABSOLUTE
-        (PORT dataa (2535:2535:2535) (2673:2673:2673))
-        (PORT datab (2235:2235:2235) (2401:2401:2401))
+        (PORT dataa (2525:2525:2525) (2669:2669:2669))
+        (PORT datab (2786:2786:2786) (2904:2904:2904))
         (IOPATH dataa combout (371:371:371) (344:344:344))
         (IOPATH dataa cout (416:416:416) (316:316:316))
         (IOPATH datab combout (370:370:370) (345:345:345))
@@ -177,19 +177,19 @@
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE a\[2\]\~input)
+    (INSTANCE b\[2\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (610:610:610) (687:687:687))
+        (IOPATH i o (648:648:648) (725:725:725))
       )
     )
   )
   (CELL
     (CELLTYPE "cycloneive_io_ibuf")
-    (INSTANCE b\[2\]\~input)
+    (INSTANCE a\[2\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (608:608:608) (685:685:685))
+        (IOPATH i o (628:628:628) (705:705:705))
       )
     )
   )
@@ -198,8 +198,8 @@
     (INSTANCE Add0\~6)
     (DELAY
       (ABSOLUTE
-        (PORT dataa (2592:2592:2592) (2717:2717:2717))
-        (PORT datab (2519:2519:2519) (2675:2675:2675))
+        (PORT dataa (2935:2935:2935) (3031:3031:3031))
+        (PORT datab (2719:2719:2719) (2826:2826:2826))
         (IOPATH dataa combout (365:365:365) (381:381:381))
         (IOPATH dataa cout (416:416:416) (316:316:316))
         (IOPATH datab combout (375:375:375) (387:387:387))
@@ -215,7 +215,7 @@
     (INSTANCE b\[3\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (620:620:620) (697:697:697))
+        (IOPATH i o (638:638:638) (715:715:715))
       )
     )
   )
@@ -224,7 +224,7 @@
     (INSTANCE a\[3\]\~input)
     (DELAY
       (ABSOLUTE
-        (IOPATH i o (640:640:640) (717:717:717))
+        (IOPATH i o (628:628:628) (705:705:705))
       )
     )
   )
@@ -233,8 +233,8 @@
     (INSTANCE Add0\~8)
     (DELAY
       (ABSOLUTE
-        (PORT dataa (2283:2283:2283) (2432:2432:2432))
-        (PORT datab (2525:2525:2525) (2659:2659:2659))
+        (PORT dataa (3008:3008:3008) (3089:3089:3089))
+        (PORT datab (2475:2475:2475) (2637:2637:2637))
         (IOPATH dataa combout (371:371:371) (344:344:344))
         (IOPATH dataa cout (416:416:416) (316:316:316))
         (IOPATH datab combout (370:370:370) (345:345:345))
