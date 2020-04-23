@@ -1,5 +1,5 @@
 Fitter report for adder4
-Thu Apr 23 14:51:50 2020
+Thu Apr 23 14:56:10 2020
 Quartus Prime Version 17.1.0 Build 590 10/25/2017 SJ Lite Edition
 
 
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Fitter Summary                                                                   ;
 +------------------------------------+---------------------------------------------+
-; Fitter Status                      ; Successful - Thu Apr 23 14:51:50 2020       ;
+; Fitter Status                      ; Successful - Thu Apr 23 14:56:10 2020       ;
 ; Quartus Prime Version              ; 17.1.0 Build 590 10/25/2017 SJ Lite Edition ;
 ; Revision Name                      ; adder4                                      ;
 ; Top-level Entity Name              ; adder4                                      ;
@@ -1251,11 +1251,11 @@ Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
 Info (334003): Started post-fitting delay annotation
 Info (334004): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Info (144001): Generated suppressed messages file C:/le3ahw/designflow-handson/adder4/output_files/adder4.fit.smsg
 Info: Quartus Prime Fitter was successful. 0 errors, 6 warnings
-    Info: Peak virtual memory: 5397 megabytes
-    Info: Processing ended: Thu Apr 23 14:51:51 2020
+    Info: Peak virtual memory: 5395 megabytes
+    Info: Processing ended: Thu Apr 23 14:56:10 2020
     Info: Elapsed time: 00:00:06
     Info: Total CPU time (on all processors): 00:00:07
 
