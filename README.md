@@ -2,8 +2,8 @@
 
 ## 本リポジトリについて
 
-京都大学工学部情報学科 [計算機科学実験及演習３（ハードウェア）](http://www.lab3.kuis.kyoto-u.ac.jp/~takase/le3a)  
-[「CADツールを用いた設計フロー」](http://www.lab3.kuis.kyoto-u.ac.jp/~takase/le3a/designflow2020.pdf) ハンズオンのQuartusプロジェクトを置いています．いわば正解データですので，実習を進める際の参考にしてください．
+京都大学工学部情報学科 [計算機科学実験及演習３（ハードウェア）](https://isle3hw.kuis.kyoto-u.ac.jp)  
+[「CADツールを用いた設計フロー」](https:/isle3hw.kuis.kyoto-u.ac.jp/designflow2024.pdf) ハンズオンのQuartusプロジェクトを置いています．いわば正解データですので，実習を進める際の参考にしてください．
 
 ## 試行環境
 
@@ -31,7 +31,7 @@ masterにはマージしていませんので，`git checkout`等で適宜切り
 
 本リポジトリではあえて`.gitignore`を整備していません．
 
-[実験3HW WebページのFAQ](http://www.lab3.kuis.kyoto-u.ac.jp/~takase/le3a/faq.html#gitignore)に掲載しているものを参考にして，ご自身の環境と使い勝手に合わせて，適宜カスタマイズして（導入課題およびプロセッサ設計演習のリポジトリでも）使うと良いでしょう．
+[実験3HW WebページのFAQ](https://isle3hw.kuis.kyoto-u.ac.jp/faq.html#gitignore)に掲載しているものを参考にして，ご自身の環境と使い勝手に合わせて，適宜カスタマイズして（導入課題およびプロセッサ設計演習のリポジトリでも）使うと良いでしょう．
 
 
 ## ライセンス
