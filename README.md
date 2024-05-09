@@ -3,7 +3,7 @@
 ## 本リポジトリについて
 
 京都大学工学部情報学科 [計算機科学実験及演習３（ハードウェア）](https://isle3hw.kuis.kyoto-u.ac.jp)  
-[「CADツールを用いた設計フロー」](https:/isle3hw.kuis.kyoto-u.ac.jp/designflow2024.pdf) ハンズオンのQuartusプロジェクトを置いています．いわば正解データですので，実習を進める際の参考にしてください．
+[「CADツールを用いた設計フロー」](https://isle3hw.kuis.kyoto-u.ac.jp/designflow2024.pdf) ハンズオンのQuartusプロジェクトを置いています．いわば正解データですので，実習を進める際の参考にしてください．
 
 ## 試行環境
 
